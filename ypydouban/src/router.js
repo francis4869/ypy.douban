@@ -16,7 +16,7 @@ Vue.use(VueRouter);
 const router = new VueRouter({
     routes: [
         // 动态路径参数 以冒号开头
-        { path: '/', component: Home },
+        { path: '/index', component: Home },
         { path: '/Events', component: Events },
         { path: '/List', component: List },
         { path: '/Pger', component: Pger },

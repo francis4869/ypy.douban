@@ -3,7 +3,7 @@
     <div class="boxConten">
       <router-view />
     </div>
-    <RouteComponent />
+    <RouteComponent class="FooterBox" />
   </div>
 </template>
 
@@ -28,5 +28,10 @@ export default {
 
 .boxConten {
   flex: 1;
+  overflow: auto;
+}
+
+.FooterBox {
+  height: 40px;
 }
 </style>

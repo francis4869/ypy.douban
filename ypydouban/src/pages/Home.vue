@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <input type="button" value="fdfdfd" @click="test" />
+  <div class="homeBox">
+    <!--  -->
+
+    <!--  -->
   </div>
 </template>
 <script>
@@ -10,10 +12,12 @@ export default {
       window.console.log(
         this.$store.dispatch({ type: "increment", amount: 10 })
       );
-      // window.console.log(this.$store);
     }
   }
 };
 </script>
 <style scoped>
+.homeBox {
+  height: 960px;
+}
 </style>
