@@ -5,7 +5,6 @@
         <router-link class="aLink" :to="item.path" v-text="item.name" />
       </div>
     </div>
-    <div></div>
   </div>
 </template>
 <script>
@@ -41,7 +40,6 @@ export default {
 <style scoped>
 .box {
   display: flex;
-  height: 40px;
   line-height: 40px;
 }
 .listRoute {

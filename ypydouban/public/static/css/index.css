@@ -3837,8 +3837,8 @@ h2 {
         color: #555; }
 
 @media only screen and (max-width: 860px) {
-  body {
-    padding-bottom: 35px; }
+  /* body {
+    padding-bottom: 35px; } */
   img {
     max-width: 98%; }
   .main {
